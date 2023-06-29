@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    font-size: 25px;
+}
+.logo {
+    width: 101px;
+    height: 29px;
+    top: 21px;
+    left: 70px;
+}
+.menu li a {
+color: black ;
+}
+
+header {
+     background: #1ABC9C;
+     display: flex;
+     justify-content: space-between;
+    align-items: center;
+    width: 1512px;
+    height: 70px;
+   
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 357px;
+}
+.menu ul {
+    display: flex;
+   
+    
+}
+menu li:nth-child(2)
+{
+    margin: 2 20px;
+}
+.icon_container{
+    display: flex; 
+    justify-content: space-between;
+    width: 160px;
+   height: 40px;
+   top: 15px;
+   left: 1282px
+}
+
+.icon_container div:nth-child(2) {
+    margin: 0 20px ;
+}
+
+.about {
+    display: flex;
+    width: 624px;
+    height:182px ;
+    top: 364px;
+    left: 818px;
+}
+
+.left {
+    width: 756px;
+    height: 694.38px;
+    top: 70px;
+    margin: 70px 0 70px;
+   
+}
+.right {
+    width: 624px;
+    height: 182px;
+    top: 364px;
+    left: 818px;
+}
+.aboutus {
+    
+width: 135px;
+height: 53px;
+top: 288px;
+left: 1062px;
+}
+
+.Projects {
+    display: flex;
+    width: 1512px;
+    height: 730px;
+    top: 764px;
+    justify-content: space-between;
+}
+.h3 {
+    font-size: 25px;
+    font-weight: 200px;
+    margin-bottom: 50px; 
+}
+.contacts {
+    margin: 84px 70px 0 70px;
+   
+    justify-content: space-between;
+
+}
+
+.contacts_list {
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.contacts_item {
+    width: 315px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.contacts_item p {
+    text-align: center;
+   
+}
+.contacts_item p:nth-child(2) {
+    color: green;
+}
+.adress {
+    text-align: center;
+    color: blue;
+    padding: 25px;
+}
