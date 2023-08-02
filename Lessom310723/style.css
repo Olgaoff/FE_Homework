@@ -21,6 +21,7 @@ body {
     width: 60px;
     aspect-ratio: 1;
     transform: translateY(-100%);
+    position: relative;
 }
 #object.start {
     animation-name: movement;
