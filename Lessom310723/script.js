@@ -33,6 +33,18 @@ function hit () {
     // void object.offsetWidt;
     // object.classList.add('start')
 }
+function change_object_backgraoud() {
+    const colors = ['purple', 'gold','orange', 'blue', 'red']
+    const index = Math.floor(Math.randome() * colors.length);
+    object.style.backgraund = colors[index];
+}
+
+function change_object_position() {
+    console.log('position changed');
+    const ramdom_offset = Math.floor(Math.randome() * 340);
+    object.style.left = `${ramdom_offset}px`;
+
+}
 
 let score = 0;
 let object = document.querySelector('#object')

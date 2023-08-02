@@ -5,6 +5,8 @@
 }
 body {
     background: rgb(13, 4, 58);
+    display: flex;
+    justify-content: center;
 }
 #area{
     background-color: rgb(230, 238, 238);
@@ -12,6 +14,7 @@ body {
     aspect-ratio: 1;
     margin-top: 100px;
     overflow: hidden;
+    
 }
 #object {
     background: orange;
